@@ -1,25 +1,19 @@
 // MERN Thinkboard @jdomingu19
 // Web Development Bootcamp @burakorkmez
-// notesRoutes.js
+// notesControllers.js
 
-import express from "express";
-
-const router = express.Router();
-
-router.get("/", (req, res) => {
+export const getAllNotes = (req, res) => {
   res.status(200).send("You just fetched the notes!");
-});
+};
 
-router.post("/", (req, res) => {
+export const createNote = (req, res) => {
   res.status(201).json({ message: "Note created successfully!" });
-});
+};
 
-router.put("/:id", (req, res) => {
+export const updateNote = (req, res) => {
   res.status(200).json({ message: "Note updated successfully!" });
-});
+};
 
-router.delete("/:id", (req, res) => {
+export const deleteNote = (req, res) => {
   res.status(200).json({ message: "Note deleted successfully!" });
-});
-
-export default router;
+};
