@@ -6,7 +6,7 @@
 import Note from "../models/Note.js";
 
 // ?
-export const getAllNotes = async (req, res) => {
+export const getAllNotes = async (_, res) => {
   try {
     const notes = await Note.find();
     res.status(200).json(notes);
@@ -32,7 +32,14 @@ export const createNote = async (req, res) => {
 
 // ?
 export const updateNote = async (req, res) => {
-  res.status(200).json({ message: "Note updated successfully!" });
+  try {
+    const { title, content } = req.body;
+    await Note.findByIdAndUpdate(req.params.id, { title, content });
+    res.status(200).json({ message: "Note updated successfully!" });
+  } catch (error) {
+    console.error("Error in updateNote controller.", error);
+    res.status(500).json({ message: "Internal server error." });
+  }
 };
 
 // ?
