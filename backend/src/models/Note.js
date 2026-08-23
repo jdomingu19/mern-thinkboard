@@ -2,9 +2,10 @@
 // Web Development Bootcamp @burakorkmez
 // Note.js
 
+// Import Mongoose library to define schema and model
 import mongoose from "mongoose";
 
-// Step 1 - Create a Schema
+// Define Note schema with title and content fields, including timestamps
 const noteSchema = new mongoose.Schema(
   {
     title: {
@@ -17,11 +18,13 @@ const noteSchema = new mongoose.Schema(
     },
   },
   {
-    timestamps: true, // createdAt, updatedAt
+    // Automatically adds createdAt and updatedAt fields
+    timestamps: true,
   },
 );
 
-// Step 2 - Create a Model Based Off of that Schema
+// Create Note model based on schema for MongoDB operations
 const Note = mongoose.model("Note", noteSchema);
 
+// Export Note model for use in controllers and routes
 export default Note;

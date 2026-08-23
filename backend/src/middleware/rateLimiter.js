@@ -2,8 +2,10 @@
 // Web Development Bootcamp @burakorkmez
 // rateLimiter.js
 
+// Import configured ratelimit instance from Upstash config
 import ratelimit from "../config/upstash.js";
 
+// Middleware to enforce request rate limiting using Upstash Redis
 const rateLimiter = async (req, res, next) => {
   try {
     const { success } = await ratelimit.limit("my-limit-key");
@@ -21,4 +23,5 @@ const rateLimiter = async (req, res, next) => {
   }
 };
 
+// Export middleware for integration in Express server
 export default rateLimiter;
