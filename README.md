@@ -24,4 +24,28 @@ npm install @upstash/ratelimit@2.0.5
 npm install @upstash/redis@1.34.9
 ```
 
+```bash
+npm create vite@latest .
+```
+
+```bash
+npm install react-router
+```
+
+```bash
+npm install react-hot-toast
+```
+
+```bash
+npm install -D tailwindcss@3 postcss autoprefixer
+```
+
+```bash
+npx tailwindcss init -p
+```
+
+```bash
+npm i -D daisyui@v4
+```
+
 > Built with '\u{2665}' (♥) by Jesús Domínguez [@jdomingu19](https://github.com/jdomingu19/)
