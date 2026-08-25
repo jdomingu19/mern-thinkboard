@@ -45,7 +45,15 @@ npx tailwindcss init -p
 ```
 
 ```bash
-npm i -D daisyui@v4
+npm install -D daisyui@v4
+```
+
+```bash
+npm install lucide-react
+```
+
+```bash
+npm install axios
 ```
 
 > Built with '\u{2665}' (♥) by Jesús Domínguez [@jdomingu19](https://github.com/jdomingu19/)
