@@ -1,6 +1,6 @@
 # MERN Stack Note Taking App
 
-### Tech Stock 🛠️
+### Tech Stack 🛠️
 
 ![Static Badge](https://img.shields.io/badge/react-18+-1C2024?style=for-the-badge&logo=react&logoColor=white&labelColor=101010)
 ![Static Badge](https://img.shields.io/badge/react_router-8+-1C2024?style=for-the-badge&logo=reactrouter&logoColor=white&labelColor=101010)
