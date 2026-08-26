@@ -7,6 +7,7 @@
 ![Static Badge](https://img.shields.io/badge/axios-1.19+-1C2024?style=for-the-badge&logo=axios&logoColor=white&labelColor=101010)
 ![Static Badge](https://img.shields.io/badge/nodemon-3+-1C2024?style=for-the-badge&logo=nodemon&logoColor=white&labelColor=101010)
 ![Static Badge](https://img.shields.io/badge/.env-17+-1C2024?style=for-the-badge&logo=.env&logoColor=white&labelColor=101010)
+![Static Badge](https://img.shields.io/badge/mongodb-atlas+-1C2024?style=for-the-badge&logo=mongodb&logoColor=white&labelColor=101010)
 ![Static Badge](https://img.shields.io/badge/rate_limit-2+-1C2024?style=for-the-badge&logo=upstash&logoColor=white&labelColor=101010)
 ![Static Badge](https://img.shields.io/badge/redis-1.34+-1C2024?style=for-the-badge&logo=redis&logoColor=white&labelColor=101010)
 ![Static Badge](https://img.shields.io/badge/javascript-ES6+-1C2024?style=for-the-badge&logo=javascript&logoColor=white&labelColor=101010)
