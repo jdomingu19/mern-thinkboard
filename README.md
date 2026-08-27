@@ -22,7 +22,7 @@
 ![Static Badge](https://img.shields.io/badge/eslint-10+-1C2024?style=for-the-badge&logo=eslint&logoColor=white&labelColor=101010)
 ![Static Badge](https://img.shields.io/badge/vite-8+-1C2024?style=for-the-badge&logo=vite&logoColor=white&labelColor=101010)
 
-### Details 🎯
+### Details 📝
 
 Banner
 
