@@ -2,11 +2,14 @@
 // Web Development Bootcamp @burakorkmez
 // server.js
 
-// Import Express, routes, database connection, dotenv, and middleware
+// ?
 import express from "express";
+import dotenv from "dotenv";
+import cors from "cors";
+
+// ?
 import notesRoutes from "./routes/notesRoutes.js";
 import { connectDatabase } from "./config/database.js";
-import dotenv from "dotenv";
 import rateLimiter from "./middleware/rateLimiter.js";
 
 // Load environment variables from .env file
@@ -15,6 +18,9 @@ dotenv.config();
 // Initialize Express application and configure server port
 const app = express();
 const PORT = process.env.PORT || 5001;
+
+// ?
+app.use(cors({ origin: "http://localhost:5173" }));
 
 // Middlewares to parse JSON requests and apply rate limiting
 app.use(express.json());

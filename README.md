@@ -56,4 +56,8 @@ npm install lucide-react
 npm install axios
 ```
 
+```bash
+npm install cors
+```
+
 > Built with '\u{2665}' (♥) by Jesús Domínguez [@jdomingu19](https://github.com/jdomingu19/)
