@@ -2,12 +2,35 @@
 // Web Development Bootcamp @burakorkmez
 // Frontend -> NoteCard.jsx
 
+// ?
 import { PenSquareIcon, Trash2Icon } from "lucide-react";
 import { Link } from "react-router";
-import formatDate from "../lib/utils";
 
 // ?
-const NoteCard = ({ note }) => {
+import formatDate from "../lib/utils";
+import axiosInstance from "../lib/axios";
+import toast from "react-hot-toast";
+
+// ?
+const NoteCard = ({ note, setNotes }) => {
+  const handleDelete = async (event, noteId) => {
+    event.preventDefault();
+
+    if (!window.confirm("Are you sure you want to delete this note?")) {
+      return;
+    }
+
+    try {
+      await axiosInstance.delete(`/notes/${noteId}`);
+      setNotes((previous) => previous.filter((note) => note._id !== noteId));
+
+      toast.success("Note deleted successfully!");
+    } catch (error) {
+      console.log("Error deleting notes.", error);
+      toast.error("Failed to deleted notes.");
+    }
+  };
+
   return (
     <Link
       to={`/note/${note._id}`}
@@ -22,7 +45,12 @@ const NoteCard = ({ note }) => {
           </span>
           <div className="flex items-center gap-1">
             <PenSquareIcon className="size-4" />
-            <button className="btn btn-ghost btn-xs text-error">
+            <button
+              className="btn btn-ghost btn-xs text-error"
+              onClick={(event) => {
+                handleDelete(event, note._id);
+              }}
+            >
               <Trash2Icon className="size-4" />
             </button>
           </div>
