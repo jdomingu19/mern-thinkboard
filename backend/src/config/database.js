@@ -1,6 +1,6 @@
 // MERN Thinkboard @jdomingu19
 // Web Development Bootcamp @burakorkmez
-// database.js
+// Backend -> database.js
 
 // Import Mongoose library to manage MongoDB connection
 import mongoose from "mongoose";

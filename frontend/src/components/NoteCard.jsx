@@ -2,16 +2,23 @@
 // Web Development Bootcamp @burakorkmez
 // Frontend -> NoteCard.jsx
 
-// ?
+// Import icons and navigation components
 import { PenSquareIcon, Trash2Icon } from "lucide-react";
 import { Link } from "react-router";
 
-// ?
+// Import utilities, axios instance, and toast notifications
 import formatDate from "../lib/utils";
 import axiosInstance from "../lib/axios";
 import toast from "react-hot-toast";
 
-// ?
+/**
+ * NoteCard component
+ *
+ * Displays a single note with title, content preview, creation date, and actions for edit/delete.
+ * @param {Object} props - Component props
+ * @param {Object} props.note - Note object containing title, content, and createdAt
+ * @param {Function} props.setNotes - State updater to refresh notes list after deletion
+ */
 const NoteCard = ({ note, setNotes }) => {
   const handleDelete = async (event, noteId) => {
     event.preventDefault();
@@ -60,4 +67,5 @@ const NoteCard = ({ note, setNotes }) => {
   );
 };
 
+// Export NoteCard component
 export default NoteCard;

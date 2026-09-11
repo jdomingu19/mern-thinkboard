@@ -2,6 +2,7 @@
 /* Web Development Bootcamp @burakorkmez */
 /* Frontend -> index.css */
 
+/* Import Tailwind CSS base styles, component classes, and utility classes */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

@@ -1,6 +1,6 @@
 // MERN Thinkboard @jdomingu19
 // Web Development Bootcamp @burakorkmez
-// notesRoutes.js
+// Backend -> notesRoutes.js
 
 // Import Express and note controllers to define routes
 import express from "express";

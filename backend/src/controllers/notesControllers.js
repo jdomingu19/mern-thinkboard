@@ -1,6 +1,6 @@
 // MERN Thinkboard @jdomingu19
 // Web Development Bootcamp @burakorkmez
-// notesControllers.js
+// Backend -> notesControllers.js
 
 // Import Note model to interact with MongoDB collection
 import Note from "../models/Note.js";

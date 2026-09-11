@@ -2,16 +2,20 @@
 // Web Development Bootcamp @burakorkmez
 // Frontend -> NoteDetailsPage.jsx
 
-// ?
+// Import React hooks, navigation, parameters, toast, and icons
 import { useEffect, useState } from "react";
 import { Link, useNavigate, useParams } from "react-router";
 import toast from "react-hot-toast";
 import { ArrowLeftIcon, LoaderIcon, Trash2Icon } from "lucide-react";
 
-// ?
+// Import axios instance for API calls
 import axiosInstance from "../lib/axios.js";
 
-// ?
+/**
+ * NoteDetailsPage component
+ *
+ * Displays and manages a single note with functionality to edit, save, and delete.
+ */
 const NoteDetailsPage = () => {
   const [note, setNote] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
@@ -152,5 +156,5 @@ const NoteDetailsPage = () => {
   );
 };
 
-// ?
+// Export NoteDetailsPage component
 export default NoteDetailsPage;

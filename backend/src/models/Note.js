@@ -1,6 +1,6 @@
 // MERN Thinkboard @jdomingu19
 // Web Development Bootcamp @burakorkmez
-// Note.js
+// Backend -> Note.js
 
 // Import Mongoose library to define schema and model
 import mongoose from "mongoose";

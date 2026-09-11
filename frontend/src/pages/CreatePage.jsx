@@ -2,16 +2,20 @@
 // Web Development Bootcamp @burakorkmez
 // Frontend -> CreatePage.jsx
 
-// ?
+// Import React hooks, navigation, icons, and toast notifications
 import { useState } from "react";
 import { Link, useNavigate } from "react-router";
 import { ArrowLeftIcon } from "lucide-react";
 import toast from "react-hot-toast";
 
-// ?
+// Import axios instance for API calls
 import axiosInstance from "../lib/axios";
 
-// ?
+/**
+ * CreatePage component
+ *
+ * Provides a form to create new notes with validation, API integration, and toast feedback.
+ */
 const CreatePage = () => {
   const [title, setTitle] = useState("");
   const [content, setContent] = useState("");
@@ -103,5 +107,5 @@ const CreatePage = () => {
   );
 };
 
-// ?
+// Export CreatePage component
 export default CreatePage;

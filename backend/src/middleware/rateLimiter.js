@@ -1,6 +1,6 @@
 // MERN Thinkboard @jdomingu19
 // Web Development Bootcamp @burakorkmez
-// rateLimiter.js
+// Backend -> rateLimiter.js
 
 // Import configured ratelimit instance from Upstash config
 import ratelimit from "../config/upstash.js";

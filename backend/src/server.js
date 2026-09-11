@@ -1,13 +1,13 @@
 // MERN Thinkboard @jdomingu19
 // Web Development Bootcamp @burakorkmez
-// server.js
+// Backend -> server.js
 
-// ?
+// Import core libraries for Express, environment variables, and CORS
 import express from "express";
 import dotenv from "dotenv";
 import cors from "cors";
 
-// ?
+// Import routes, database connection, and rate limiter middleware
 import notesRoutes from "./routes/notesRoutes.js";
 import { connectDatabase } from "./config/database.js";
 import rateLimiter from "./middleware/rateLimiter.js";
@@ -19,7 +19,7 @@ dotenv.config();
 const app = express();
 const PORT = process.env.PORT || 5001;
 
-// ?
+// Enable CORS for frontend origin
 app.use(cors({ origin: "http://localhost:5173" }));
 
 // Middlewares to parse JSON requests and apply rate limiting

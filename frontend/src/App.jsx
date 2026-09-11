@@ -2,15 +2,19 @@
 // Web Development Bootcamp @burakorkmez
 // Frontend -> App.jsx
 
-// ?
+// Import routing components from React Router
 import { Routes, Route } from "react-router";
 
-// ?
+// Import application pages
 import HomePage from "./pages/HomePage.jsx";
 import CreatePage from "./pages/CreatePage.jsx";
 import NoteDetailsPage from "./pages/NoteDetailsPage.jsx";
 
-// ?
+/**
+ * App component
+ *
+ * Defines global layout, background styling, and application routes.
+ */
 const App = () => {
   return (
     <div className="relative h-full w-full">
@@ -24,5 +28,5 @@ const App = () => {
   );
 };
 
-// ?
+// Export App component
 export default App;

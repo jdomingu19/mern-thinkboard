@@ -2,11 +2,15 @@
 // Web Development Bootcamp @burakorkmez
 // Frontend -> NotesNotFound.jsx
 
-// ?
+// Import icon and navigation components
 import { NotebookIcon } from "lucide-react";
 import { Link } from "react-router";
 
-// ?
+/**
+ * NotesNotFound component
+ *
+ * Displays a friendly message and call-to-action when no notes are available.
+ */
 const NotesNotFound = () => {
   return (
     <div className="flex flex-col items-center justify-center py-16 space-y-6 max-w-md mx-auto text-center">
@@ -25,5 +29,5 @@ const NotesNotFound = () => {
   );
 };
 
-// ?
+// Export NotesNotFound component
 export default NotesNotFound;

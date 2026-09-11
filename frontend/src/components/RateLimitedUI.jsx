@@ -2,10 +2,14 @@
 // Web Development Bootcamp @burakorkmez
 // Frontend -> RateLimitedUI.jsx
 
-// ?
+// Import icon component
 import { ZapIcon } from "lucide-react";
 
-// ?
+/**
+ * RateLimitedUI component
+ *
+ * Displays a warning message when the user exceeds the allowed request rate.
+ */
 const RateLimitedUI = () => {
   return (
     <div className="max-w-6xl mx-auto px-4 py-8">
@@ -30,5 +34,5 @@ const RateLimitedUI = () => {
   );
 };
 
-// ?
+// Export RateLimitedUI component
 export default RateLimitedUI;

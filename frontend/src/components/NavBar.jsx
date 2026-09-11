@@ -2,10 +2,15 @@
 // Web Development Bootcamp @burakorkmez
 // Frontend -> NavBar.jsx
 
+// Import navigation and icon components
 import { Link } from "react-router";
 import { PlusIcon } from "lucide-react";
 
-// ?
+/**
+ * NavBar component
+ *
+ * Renders the application header with title and navigation link to create a new note.
+ */
 const NavBar = () => {
   return (
     <header className="bg-base-300 border-b border-base-content/10 ">
@@ -26,5 +31,5 @@ const NavBar = () => {
   );
 };
 
-// ?
+// Export NavBar component
 export default NavBar;

@@ -1,6 +1,6 @@
 // MERN Thinkboard @jdomingu19
 // Web Development Bootcamp @burakorkmez
-// upstash.js
+// Backend -> upstash.js
 
 // Import Upstash Ratelimit and Redis clients with dotenv configuration
 import { Ratelimit } from "@upstash/ratelimit";

@@ -2,22 +2,26 @@
 // Web Development Bootcamp @burakorkmez
 // Frontend -> HomePage.jsx
 
-// ?
+// Import React hooks
 import { useEffect, useState } from "react";
 
-// ?
+// Import toast notifications
 import toast from "react-hot-toast";
 
-// ?
+// Import UI components for navigation, rate limit, notes list, and empty state
 import NavBar from "../components/NavBar.jsx";
 import RateLimitedUI from "../components/RateLimitedUI.jsx";
 import NoteCard from "../components/NoteCard.jsx";
 import NotesNotFound from "../components/NotesNotFound.jsx";
 
-// ?
+// Import axios instance for API calls
 import axiosInstance from "../lib/axios.js";
 
-// ?
+/**
+ * HomePage component
+ *
+ * Fetches notes from backend, handles rate limiting, and renders notes grid or empty state.
+ */
 const HomePage = () => {
   const [isRateLimited, setIsRateLimited] = useState(false);
   const [notes, setNotes] = useState([]);
@@ -70,5 +74,5 @@ const HomePage = () => {
   );
 };
 
-// ?
+// Export HomePage component
 export default HomePage;
