@@ -114,7 +114,8 @@ Please open an issue or submit a pull request with improvements, bug fixes, or n
 
 ## License ⚖️
 
-This repository is licensed under the terms of the [Apache License 2.0](LICENSE). The license grants permission to use, modify, and distribute the code with proper attribution, while ensuring that improvements and extensions remain open and accessible to the community.
+This project is distributed under the [Apache License 2.0](LICENSE).  
+You are free to use, modify, and share the code, provided that proper attribution is given and derivative works remain open to the community.
 
 ##
 
