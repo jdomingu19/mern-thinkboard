@@ -3,8 +3,6 @@
 A modern, full-stack note-taking application built with the **MERN stack** (MongoDB, Express.js, React, Node.js).  
 It provides a clean UI, responsive design, and complete CRUD functionality with rate limiting powered by Upstash Redis.
 
----
-
 ## Tech Stack ⚙️
 
 ![Static Badge](https://img.shields.io/badge/react-18+-1C2024?style=for-the-badge&logo=react&logoColor=white&labelColor=101010)
@@ -19,8 +17,6 @@ It provides a clean UI, responsive design, and complete CRUD functionality with 
 ![Static Badge](https://img.shields.io/badge/redis-1.34+-1C2024?style=for-the-badge&logo=redis&logoColor=white&labelColor=101010)
 ![Static Badge](https://img.shields.io/badge/vite-8+-1C2024?style=for-the-badge&logo=vite&logoColor=white&labelColor=101010)
 
----
-
 ## Features ✨
 
 - **Create, Read, Update, Delete (CRUD)** notes with a clean UI.
@@ -33,8 +29,6 @@ It provides a clean UI, responsive design, and complete CRUD functionality with 
   - Loading spinner
   - Empty state (`NotesNotFound`)
   - Rate limit warning (`RateLimitedUI`)
-
----
 
 ## Installation & Setup 🚀
 
@@ -103,8 +97,6 @@ mern-thinkboard/
 │   │   ├── main.jsx       # Entry point
 │   │   └── index.css      # Tailwind base styles
 ```
-
----
 
 ## Screenshots 🖼️
 
