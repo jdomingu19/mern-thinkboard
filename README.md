@@ -44,3 +44,41 @@ Clone the repository and install dependencies:
 git clone https://github.com/jdomingu19/mern-thinkboard.git
 cd mern-thinkboard
 ```
+
+### Backend Setup ⚡
+
+```bash
+cd backend
+npm install
+npm install @upstash/ratelimit@2.0.5
+npm install @upstash/redis@1.34.9
+npm install cors
+npm install dotenv
+```
+
+Start the backend server:
+
+```bash
+npm run dev
+```
+
+### Frontend Setup 🎨
+
+```bash
+cd frontend
+npm install
+npm create vite@latest .
+npm install react-router
+npm install react-hot-toast
+npm install axios
+npm install lucide-react
+npm install -D tailwindcss@3 postcss autoprefixer daisyui@v4
+npx tailwindcss init -p
+```
+
+Start the frontend:
+
+```bash
+npm run dev
+```
+
