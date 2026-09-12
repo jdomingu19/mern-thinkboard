@@ -1,7 +1,5 @@
 # MERN Stack Note Taking App
 
-### Tech Stack 🛠️
-
 ![Static Badge](https://img.shields.io/badge/react-18+-1C2024?style=for-the-badge&logo=react&logoColor=white&labelColor=101010)
 ![Static Badge](https://img.shields.io/badge/react_router-8+-1C2024?style=for-the-badge&logo=reactrouter&logoColor=white&labelColor=101010)
 ![Static Badge](https://img.shields.io/badge/node.js-20+-1C2024?style=for-the-badge&logo=node.js&logoColor=white&labelColor=101010)
