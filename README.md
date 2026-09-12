@@ -82,3 +82,44 @@ Start the frontend:
 npm run dev
 ```
 
+## Project Structure 📂
+
+```
+mern-thinkboard/
+├── backend/
+│   ├── src/
+│   │   ├── config/        # Database & Upstash setup
+│   │   ├── controllers/   # Notes controllers
+│   │   ├── middleware/    # Rate limiter
+│   │   ├── models/        # Note model
+│   │   ├── routes/        # Notes API routes
+│   │   └── server.js      # Express server entry
+├── frontend/
+│   ├── src/
+│   │   ├── components/    # NavBar, NoteCard, UI states
+│   │   ├── lib/           # axios instance, utils
+│   │   ├── pages/         # HomePage, CreatePage, NoteDetailsPage
+│   │   ├── App.jsx        # Routes and layout
+│   │   ├── main.jsx       # Entry point
+│   │   └── index.css      # Tailwind base styles
+```
+
+---
+
+## Screenshots 🖼️
+
+- **HomePage**: Notes grid with empty state and rate limit UI.
+
+- **CreatePage**: Form to create new notes.
+
+- **NoteDetailsPage**: Edit and delete notes with validation
+
+## Contributing 🤝
+
+Contributions are welcome!
+
+Please open an issue or submit a pull request with improvements, bug fixes, or new features
+
+## License 📝
+
+?
