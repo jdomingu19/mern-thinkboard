@@ -98,19 +98,11 @@ mern-thinkboard/
 │   │   └── index.css      # Tailwind base styles
 ```
 
-## Screenshots 🖼️
-
-- **HomePage**: Notes grid with empty state and rate limit UI.
-
-- **CreatePage**: Form to create new notes.
-
-- **NoteDetailsPage**: Edit and delete notes with validation
-
 ## Contributing 🤝
 
 Contributions are welcome!
 
-Please open an issue or submit a pull request with improvements, bug fixes, or new features
+Open an issue or submit a pull request with improvements, bug fixes, or new features
 
 ## License ⚖️
 
