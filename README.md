@@ -1,7 +1,9 @@
-# MERN Stack Note Taking App 📝
+# MERN Thinkboard App 📝
 
 A modern, full-stack note-taking application built with the **MERN stack** (MongoDB, Express.js, React, Node.js).  
 It provides a clean UI, responsive design, and complete CRUD functionality with rate limiting powered by Upstash Redis.
+
+<img width="1310" height="550" alt="image" src="https://github.com/user-attachments/assets/7f790f0a-c976-4f47-8dc2-48052f8b7d74" />
 
 ## Tech Stack ⚙️
 
